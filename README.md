@@ -1,4 +1,4 @@
-# ToBa
+# ToBa (Toko Baju)
 ToBa Database Project create by: kelompok 3 <br>
 Member: <br>
 - ANDREAS ALEXANDER - 2401959023
