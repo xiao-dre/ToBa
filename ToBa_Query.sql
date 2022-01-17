@@ -16,7 +16,7 @@ BEGIN TRAN
 DELETE FROM Customer WHERE CustomerName LIKE 'Andreas'
 ROLLBACK
 
--- 4. Update ProductPrice to 450000 where product type is 'Batik'
+-- 4. Update ProductPrice to 450000 where product type is 'Shirt'
 BEGIN TRAN
 UPDATE Product
 SET ProductPrice = '450000'
