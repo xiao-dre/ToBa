@@ -1,6 +1,7 @@
 CREATE DATABASE ToBa
+GO
 USE ToBa
--- DROP DATABASE ToBa
+GO
 
 -- Master tables
 CREATE TABLE Customer (
@@ -33,6 +34,7 @@ CREATE TABLE Staff (
     StaffRoleID INT NOT NULL,
     StaffPhone CHAR(12) NOT NULL,
     StaffAddress VARCHAR(MAX) NOT NULL,
+    StaffSalary INT NOT NULL
 
     CONSTRAINT StaffID_pk PRIMARY KEY(StaffID),
     CONSTRAINT StaffRoleID_fk FOREIGN KEY(StaffRoleID) REFERENCES StaffRole(StaffRoleID) ON UPDATE CASCADE ON DELETE CASCADE,
